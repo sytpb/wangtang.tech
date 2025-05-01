@@ -172,6 +172,17 @@ header .fa-bars {
     object-fit: cover;
 }
 
+.about .row .video-container img {
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border: solid 1px white;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 .5 1rem rgba(0,0,0,.1);
+    /* height: 100%; */
+    object-fit: cover;
+}
+
 .about .row .video-container h3 {
     position: absolute;
     top: 50%;
@@ -409,7 +420,10 @@ header .fa-bars {
     color: var(--pink);
 }
 
-
+.footer .address {
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 
 
